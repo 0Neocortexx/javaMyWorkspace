@@ -1,0 +1,21 @@
+--- ATALHOS ---
+Ctrl + shift + f -> Formata o codigo;
+Sysout (ctrl + space) -> autocomplete;
+
+--- IMPORTS ---
+import java.util.Scanner; --> Importa o Scanner;
+import java.util.Locale; --> Importa a locale;
+
+--- SCANNER ---
+Scanner (nome do scanner) = new Scanner(System.in); -> Inicia um Scanner (leitor de dados)
+sc.close(Fecha o Scanner)
+.next(); --> lê strings
+.nextInt(); --> lê numeros inteiros
+.nextDouble(); --> lê numeros em ponto flutuante
+.next().charAt(0); --> lê apenas um caractere onde for indicado apos o At;
+sc.nextLine() -> lé uma linha até sua quebra;
+
+--- Funções matemáticas ---
+a = Math.sqrt(x); --> Recebe a raiz quadrada de x;
+a = Math.pow(x,y); --> Recebe o resultado de x elevado a y;
+a = Math.abs(x); --> Recebe o valor absoluto de x
